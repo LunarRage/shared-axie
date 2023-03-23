@@ -4,11 +4,11 @@
   "scripts": {
     "codegen": "graph codegen",
     "build": "graph build",
-    "create": "graph create axieTransfers --node https://graph-protection.axie.live/management",
-    "deploy": "graph deploy axieTransfers --version-label v1.0.1 --node https://graph-protection.axie.live/management",
-    "create-local": "graph create --version-label v1.0.0 --node http://localhost:8020/ axieTransfers",
-    "remove-local": "graph remove --node http://localhost:8020/ axieTransfers",
-    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 axieTransfers",
+    "create": "graph create seasonOne-sharedAxie --node https://graph-protection.axie.live/management",
+    "deploy": "graph deploy seasonOne-sharedAxie --version-label v1.0.0 --node https://graph-protection.axie.live/management",
+    "create-local": "graph create --version-label v1.0.0 --node http://localhost:8020/ seasonOne-sharedAxie",
+    "remove-local": "graph remove --node http://localhost:8020/ seasonOne-sharedAxie",
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 seasonOne-sharedAxie",
     "test": "graph test"
   },
   "dependencies": {

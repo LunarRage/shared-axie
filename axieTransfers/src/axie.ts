@@ -70,7 +70,7 @@ function filterOnlyTransfers(event:Transfer):bool{
 }
 
 function filterBlock(event:Transfer):bool{
-  const block = BigInt.fromString('21748607');
+  const block = BigInt.fromString('21745037');
   let curBlock = event.block.number;
 
   if(curBlock.le(block)){
